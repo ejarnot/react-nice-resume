@@ -22,7 +22,11 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { background: #021330; }
+#home{
+   background-image: url("../images/MtHood2.jpg");
+   background-position: center;
+}
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -112,7 +116,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #0762f9; }
+header .scrolldown a:hover { color: #193b71; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -135,7 +139,7 @@ header .scrolldown a:hover { color: #0762f9; }
    left: 0;
    top: 0;
 }
-.opaque { background-color: #333; }
+.opaque { background-color: #021330; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -182,14 +186,14 @@ ul#nav li.current a { color: #fe6928; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #000524;
+   background: #021330;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #0762f9; }
+#about a:hover, #about a:focus { color: #193b71; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -202,8 +206,8 @@ ul#nav li.current a { color: #fe6928; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 200px;
+   height: 250px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -217,8 +221,8 @@ ul#nav li.current a { color: #fe6928; }
    background: #444;
 }
 #about .download .button:hover {
-   background: #fff;
-   color: #2B2B2B;
+   background: #193b71;
+   color: #fff;
 }
 #about .download .button i {
    margin-right: 15px;
@@ -237,8 +241,8 @@ ul#nav li.current a { color: #fe6928; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #0762f9; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#resume a, #resume a:visited  { color: #193b71; }
+#resume a:hover, #resume a:focus { color: #193b71; }
 
 #resume h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -553,7 +557,7 @@ ul#nav li.current a { color: #fe6928; }
    letter-spacing: 3px;
    cursor: pointer;
 }
-.popup-modal a:hover {	color: #00CCCC; }
+.popup-modal a:hover {	color: #193b71; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 
 
@@ -1003,22 +1007,24 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: #193b71; }
 
 
-.social .btn:first-child{
-   margin-right: 30px;
+.social .btn{
+   margin-right: 15px;
+   margin-left: 15px;
 }
 .social .btn{
    padding-left: 30px;
    padding-right: 30px; 
+   border-radius: 100%;
 }
 .social .btn i{
    margin-right: 15px;
 }
-.project-btn{
-   background-color: #1abc9c !important;
-}
-.github-btn{
-   background-color: #34495e !important;
+
+.linkedin-btn:hover,
+.github-btn:hover,
+.codewars-btn:hover{
+   background-color: #193b71;
 }
