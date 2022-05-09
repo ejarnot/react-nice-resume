@@ -37,13 +37,13 @@
         "school":"TrueCoders",
         "degree":"Web Development Bootcamp",
         "graduated":"May 2022",
-        "description":"Spent time in an intensive, 9 week, course learning both the front end browser side of building websites, with HTML, CSS, JavaScript, and React; and the backend through the JavaScript lens with Node and Express. Spent time learning how to build tables and write queries in SQL."
+        "description":"Spent time in an intensive, 9 week, course learning both the front end browser side of building websites, with HTML, CSS, JavaScript, and React; and in the backend building databases with SQL, and servers with Node and Express."
       },
       {
         "school":"Willamette University",
-        "degree":"BA in Sociology",
+        "degree":"Bachelor of Arts in Sociology",
         "graduated":"May 2013",
-        "description":"Studied sociology for 4 years at a small liberal arts college located in the Willamette Valley. Focused my studies on postmodern theory and how it relates to our interactions and identities on social media. "
+        "description":"Studied sociology for 4 years at a small liberal arts college located in the Willamette Valley. Focused my thesis studies on postmodern theory and how it relates to our interactions and identities on social media. "
       }
     ],
     "work":[
