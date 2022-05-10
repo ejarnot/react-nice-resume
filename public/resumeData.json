@@ -95,14 +95,14 @@
     "projects": [
       {
         "title":"Pokedex",
-        "category":"",
+        "category":"Using a third party API and React, made a Pokedex that is searchable via Name, Type, and Weaknesses",
         "image":"pokedexpic.png",
         "url":"https://ejarnotpokedex.netlify.app/",
         "github":"https://github.com/ejarnot/pokedex"
       },
       {
         "title":"Have You Seen this Cat?",
-        "category":"",
+        "category":"Memory game built using React and CSS",
         "image":"catsitepic.png",
         "url":"https://ejarnot-haveyouseenthiscat.netlify.app/",
         "github":"https://github.com/ejarnot/react_memorygame_project"

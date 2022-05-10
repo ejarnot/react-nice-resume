@@ -1,24 +1,23 @@
 import React, { Component } from "react";
-import Zmage from "react-zmage";
 import Fade from "react-reveal";
+import SimpleSlider from "./Slider"
+import Slider from "react-slick";
 
 let id = 0;
 class Portfolio extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const projects = this.props.data.projects.map(function (projects) {
+    const slides = this.props.data.projects.map(function (projects) {
       let projectImage = "images/portfolio/" + projects.image;
 
       return (
-        <div key={id++} className="columns portfolio-item">
-          <div className="item-wrap">
-            <Zmage alt={projects.title} src={projectImage} />
-            <div style={{ textAlign: "center" }}>{projects.title}</div>
-            <div>{projects.category}</div>
-            <a href={projects.url}>Deployed Page</a>
-            <a href={projects.github}>GitHub Repository</a>
-          </div>
+        <div key={id++} className="portfolio-item item-wrap">
+          <img alt={projects.title} src={projectImage} />
+          <div style={{ textAlign: "center" }}>{projects.title}</div>
+          <div>{projects.category}</div>
+          <a href={projects.url}>Web Page</a><br/>
+          <a href={projects.github}>GitHub Repository</a>
         </div>
       );
     });
@@ -28,15 +27,9 @@ class Portfolio extends Component {
         <Fade left duration={1000} distance="40px">
           <div className="row">
             <div className="twelve columns collapsed">
-              <h1>Check Out My Projects!</h1>
-
-              <div
-                id="portfolio-wrapper"
-                className="bgrid-quarters s-bgrid-thirds cf"
-              >
-                {projects}
-              </div>
+              <h1>Projects</h1>
             </div>
+            {slides}
           </div>
         </Fade>
       </section>
