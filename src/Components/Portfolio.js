@@ -13,8 +13,8 @@ class Portfolio extends Component {
 
       return (
         <div key={id++} className="portfolio-item item-wrap">
-          <img alt={projects.title} src={projectImage} />
           <div style={{ textAlign: "center" }}>{projects.title}</div>
+          <img alt={projects.title} src={projectImage} />
           <div>{projects.category}</div>
           <a href={projects.url}>Web Page</a><br/>
           <a href={projects.github}>GitHub Repository</a>
