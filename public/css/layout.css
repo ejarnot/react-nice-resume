@@ -24,8 +24,10 @@
 
 body { background: #021330; }
 #home{
-   background-image: url("../images/MtHood2.jpg");
+   background-image: url("../images/Dogwoods.jpg");
+   background-size: 1250px;
    background-position: center;
+   /*background-repeat: no-repeat;*/
 }
 
 /* ------------------------------------------------------------------ */
