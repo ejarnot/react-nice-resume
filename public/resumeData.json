@@ -67,7 +67,7 @@
       },
       {
         "name":"CSS",
-        "level":"85%"
+        "level":"75%"
       },
       {
         "name":"JavaScript",
@@ -75,7 +75,7 @@
       },
       {
         "name":"ReactJS",
-        "level":"70%"
+        "level":"75%"
       },
       {
         "name":"NodeJS",
@@ -87,7 +87,7 @@
       },
       {
         "name":"MySQL",
-        "level":"70%"
+        "level":"65%"
       }
     ]
   },
@@ -113,6 +113,14 @@
         "image":"kenkenpic.png",
         "url":"https://ejarnot-kenken.netlify.app/",
         "github":"https://github.com/ejarnot/CSS-KenKen"
+      },
+      {
+        "title":"Portfolio",
+        "category":"This portfolio website! Built with React and CSS",
+        "image":"Portfoliopic2.png",
+        "url":"https://ejarnot-portfolio.netlify.app/",
+        "github":"https://github.com/ejarnot/react-nice-resume"
+
       }
     ]
   }
