@@ -43,7 +43,7 @@
         "school":"Willamette University",
         "degree":"Bachelor of Arts in Sociology",
         "graduated":"May 2013",
-        "description":"Studied sociology for 4 years at a small liberal arts college located in the Willamette Valley. Focused my thesis studies on postmodern theory and how it relates to our interactions and identities on social media. "
+        "description":"Studied sociology for 4 years at a small liberal arts college located in the Willamette Valley. Focused my senior thesis studies on postmodern theory and how it relates to our interactions and identities on social media. "
       }
     ],
     "work":[
@@ -116,7 +116,7 @@
       },
       {
         "title":"Portfolio",
-        "category":"This portfolio website! Built with React and CSS",
+        "category":"This portfolio website! Built using a template made with React. Added and edited both the CSS as well as some React elements.",
         "image":"Portfoliopic2.png",
         "url":"https://ejarnot-portfolio.netlify.app/",
         "github":"https://github.com/ejarnot/react-nice-resume"
