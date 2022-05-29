@@ -95,21 +95,28 @@
     "projects": [
       {
         "title":"Pokedex",
-        "category":"Using a third party API and React, made a Pokedex that is searchable via Name, Type, and Weaknesses",
+        "category":"Using a third party API and React, made a Pokedex that is searchable via Name, Type, and Weaknesses. Will be continuing to edit the CSS grid aspect to make it more flexible when each pokemon's attributes are listed.",
         "image":"pokedexpic.png",
         "url":"https://ejarnotpokedex.netlify.app/",
         "github":"https://github.com/ejarnot/pokedex"
       },
       {
         "title":"Have You Seen this Cat?",
-        "category":"Memory game built using React and CSS",
+        "category":"Memory game built using React and CSS. Would love to continue to edit in order to make the random generation not choose the same picture twice in a row.",
         "image":"catsitepic.png",
         "url":"https://ejarnot-haveyouseenthiscat.netlify.app/",
         "github":"https://github.com/ejarnot/react_memorygame_project"
       },
       {
+        "title": "Giphy Search",
+        "category": "A search bar randomly generating gifs from Giphy by using its API key. Continuing to edit in order to make an Enter keypress event.",
+        "image": "giphysearchpic.png",
+        "url": "https://ejarnot-giphy-search.netlify.app/",
+        "github": "https://github.com/ejarnot/JavaScript_APIs"
+      },
+      {
         "title":"KenKen",
-        "category":"Built a KenKen board using HTML and CSS, utilizing CSS grid",
+        "category":"Built a KenKen board using HTML and CSS, utilizing CSS grid. Would like to add event listeners inside a JavaScript file in order for this game to be more interactive.",
         "image":"kenkenpic.png",
         "url":"https://ejarnot-kenken.netlify.app/",
         "github":"https://github.com/ejarnot/CSS-KenKen"
