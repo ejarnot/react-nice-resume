@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import Fade from "react-reveal";
-import SimpleSlider from "./Slider"
-import Slider from "react-slick";
+//import Fade from "react-reveal";
+
 
 let id = 0;
 class Portfolio extends Component {
@@ -24,14 +23,14 @@ class Portfolio extends Component {
 
     return (
       <section id="portfolio">
-        <Fade left duration={1000} distance="40px">
+        
           <div className="row">
             <div className="twelve columns collapsed">
               <h1>Projects</h1>
+              <p>{slides}</p>
             </div>
-            {slides}
           </div>
-        </Fade>
+        
       </section>
     );
   }
