@@ -17,6 +17,7 @@
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload":"https://docs.google.com/document/d/1Vs3ABA4sYL_j6Y2T0SH_JVIAmim90TQlIo4Txm23sr4/edit?usp=sharing",
+    "diplomadownload": "https://app.digit.ink/view-credential/945d7262-6fb3-4853-8145-d0885421187e?di_ref=a2li",
     "social":[
       {
         "name":"linkedin",
@@ -74,15 +75,15 @@
         "level":"90%"
       },
       {
-        "name":"ReactJS",
+        "name":"React",
         "level":"75%"
       },
       {
-        "name":"NodeJS",
+        "name":"Node",
         "level":"65%"
       },
       {
-        "name":"ExpressJS",
+        "name":"Express",
         "level":"65%"
       },
       {
@@ -95,35 +96,28 @@
     "projects": [
       {
         "title":"Pokedex",
-        "category":"Using a third party API and React, made a Pokedex that is searchable via Name, Type, and Weaknesses. Will be continuing to edit the CSS grid aspect to make it more flexible when each pokemon's attributes are listed.",
+        "category":"Search all original 151 Pokemon with this pokedex! Pokemon are searchable via Name, Type, and Weaknesses. Built as a project for a class, with original components",
         "image":"pokedexpic.png",
         "url":"https://ejarnotpokedex.netlify.app/",
         "github":"https://github.com/ejarnot/pokedex"
       },
       {
         "title":"Have You Seen this Cat?",
-        "category":"Memory game built using React and CSS. Would love to continue to edit in order to make the random generation not choose the same picture twice in a row.",
+        "category":"Memory game built using React and CSS. Built off a template that was originally a number guessing game.",
         "image":"catsitepic.png",
         "url":"https://ejarnot-haveyouseenthiscat.netlify.app/",
         "github":"https://github.com/ejarnot/react_memorygame_project"
       },
       {
         "title": "Giphy Search",
-        "category": "A search bar randomly generating gifs from Giphy by using its API key. Continuing to edit in order to make an Enter keypress event.",
+        "category": "A search bar randomly generating gifs from Giphy by using its API key. This was an exercise in class to practice using fetch APIs and async await.",
         "image": "giphysearchpic.png",
         "url": "https://ejarnot-giphy-search.netlify.app/",
         "github": "https://github.com/ejarnot/JavaScript_APIs"
       },
       {
-        "title":"KenKen",
-        "category":"Built a KenKen board using HTML and CSS, utilizing CSS grid. Would like to add event listeners inside a JavaScript file in order for this game to be more interactive.",
-        "image":"kenkenpic.png",
-        "url":"https://ejarnot-kenken.netlify.app/",
-        "github":"https://github.com/ejarnot/CSS-KenKen"
-      },
-      {
         "title":"Portfolio",
-        "category":"This portfolio website! Built using a template made with React. Added and edited both the CSS as well as some React elements.",
+        "category":"This portfolio website! Built using a template made with React. Added and edited both the CSS as well as the React components.",
         "image":"Portfoliopic2.png",
         "url":"https://ejarnot-portfolio.netlify.app/",
         "github":"https://github.com/ejarnot/react-nice-resume"
